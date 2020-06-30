@@ -1,0 +1,24 @@
+在指定的目录进入到cmd窗口
+然后输入命令django-admin startproject project
+	说明：
+		django-admin 是命令
+		startproject 是指令
+		project是自己创建的项目名称，自己命名
+
+
+在生成的文件中manage.py管理这些
+
+在项目中看到的文件 	
+	settings.py  项目中全局的配置文件
+	urls.py      web站点的根目录，用于设定url的响应程序的路由表
+	wsgi.py
+
+	启动项目（测试django配置成功）
+			前提，进入到项目中
+				cd djangoProject
+			首先测试manage.py版本
+				python manage.py --version
+			启动程序
+				python manage.py runserver 8000
+				备注： 自己电脑上端口8000不能被占用
+			cmd 中ctrl+c 退出
