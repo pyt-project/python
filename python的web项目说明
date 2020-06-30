@@ -21,4 +21,4 @@
 			启动程序
 				python manage.py runserver 8000
 				备注： 自己电脑上端口8000不能被占用
-			cmd 中ctrl+c 退出
+			cmd 中ctrl+escape 退出
